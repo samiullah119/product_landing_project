@@ -186,18 +186,8 @@ body {
     display: flex;
     flex-direction: row;
     width: 80vw;
-    margin: 0 auto;
+    margin: 30px auto;
     align-items: center;
-    border-radius: 10px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .price:hover {
