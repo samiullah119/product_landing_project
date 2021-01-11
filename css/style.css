@@ -5,11 +5,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('../images/NatGeoPotD2018_013.jpg');
+    background: linear-gradient(90deg, rgba(121, 9, 77, 1) 42%, rgba(0, 212, 255, 1) 100%);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
 
 .container {
@@ -133,7 +134,27 @@ body {
     display: flex;
     margin-top: 30px;
     flex-direction: row;
-    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-evenly !important;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.mater:hover {
+    box-shadow: rgba(136, 165, 191, .48) 6px 2px 16px 0px, rgba(255, 255, 255, .8) -6px -2px 16px 0px;
+    transform: scale(1.004);
+    -webkit-transform: scale(1.004);
+    -moz-transform: scale(1.004);
+    -ms-transform: scale(1.004);
+    -o-transform: scale(1.004);
 }
 
 
