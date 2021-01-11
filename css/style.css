@@ -188,15 +188,43 @@ body {
     width: 80vw;
     margin: 0 auto;
     align-items: center;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.price:hover {
+    transform: scale(1.001);
+    box-shadow: rgba(136, 165, 191, .48) 6px 2px 16px 0px, rgba(255, 255, 255, .8) -6px -2px 16px 0px;
 }
 
 .price {
     width: 23%;
     margin: 0 auto;
-    border: 1px solid black;
     text-align: center;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: scale(1.001);
+    -moz-transform: scale(1.001);
+    -ms-transform: scale(1.001);
+    -o-transform: scale(1.001);
 }
 
 .price h4 {
