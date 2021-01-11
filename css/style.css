@@ -1,0 +1,252 @@
+@media (max-width:1200) and (min-width:990) {}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../images/NatGeoPotD2018_013.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+
+/* start of header  */
+
+#header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.img-div {
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.img-div #header-img {
+    width: 100%;
+    max-height: 80%;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#nav-bar ul li {
+    margin: 20px 40px;
+    color: #222;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all ease .2;
+    -webkit-transition: all ease .2;
+    -moz-transition: all ease .2;
+    -ms-transition: all ease .2;
+    -o-transition: all ease .2;
+}
+
+#nav-bar ul li a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+/* end of header */
+
+
+/* form section  ************************8*/
+
+.form-section {
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#email {
+    font-size: 16px;
+    height: 24px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+#submit {
+    padding: 3px;
+    width: 140px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 196, 0);
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+#submit:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+
+/* end of form section */
+
+
+/* /* material section */
+
+.material-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mater {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* end of material */
+
+
+/* video section */
+
+#video-section {
+    width: 60vw;
+    margin: 100px auto;
+    height: 40vh;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #666;
+    background-attachment: fixed;
+}
+
+
+/* end of video section */
+
+
+/* price section */
+
+.price-section {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.price {
+    width: 23%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.price h4 {
+    background-color: #ddd;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price h3 {
+    font-weight: 600;
+    margin: 7px auto;
+}
+
+.price p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price button {
+    padding: 10px 30px;
+    background-color: rgb(236, 188, 29);
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    transition: all ease .3s;
+}
+
+.price button:hover {
+    background-color: rgb(255, 174, 0);
+    ;
+}
+
+
+/* end of price section */
+
+
+/* footer section */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #ddd;
+    position: relative;
+}
+
+.footer-nav {
+    position: absolute;
+    right: 10px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #222;
+}
+
+
+/* end of footer section */
