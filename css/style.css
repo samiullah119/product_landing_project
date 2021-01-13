@@ -308,4 +308,8 @@ body {
     #video-section {
         width: 75vw;
     }
+
+    .mater img {
+        padding-right: 1em;
+    }
 }
