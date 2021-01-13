@@ -55,6 +55,7 @@ body {
 }
 
 #nav-bar ul li a {
+    display: block;
     text-decoration: none;
     color: #222;
     font-size: 18px;
@@ -69,6 +70,7 @@ body {
 #nav-bar ul li a:hover {
     color: black;
     border-bottom: 2px solid black;
+    transform: scale(1.1);
 }
 
 
