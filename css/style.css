@@ -1,4 +1,4 @@
-@media (max-width:1200) and (min-width:990) {}
+
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -287,5 +287,14 @@ body {
     color: #222;
 }
 
-
 /* end of footer section */
+
+@media only screen and (max-width:1200px) and (min-width:990px) {
+    body {
+        font-size: 90%;
+    }
+
+    .price-section .price {
+        width: 25%;
+    }
+}
